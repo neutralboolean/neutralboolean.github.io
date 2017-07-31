@@ -5,6 +5,7 @@
 
 .nav {
   border: 3px solid #63018c;
+  border-radius: 0%;
   background-color: #7608a5;
   text-color: #FFF;
   width: 100%;
