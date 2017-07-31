@@ -1,5 +1,5 @@
 .nav {
-  border-radius: 100%;
+  border-radius: 30%;
   border: 3px solid #7608a5;
   background-color: #7608a5;
   text-color: #FFF;
@@ -7,13 +7,19 @@
 }
 
 .nav li {
-  text-align: center;
+  border: 2px solid #000;
   display: inline-block;
-  padding: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav li:hover {
+  background-color: #8441a0;
+
 }
 
 #divider {
-  border: 10px solid #000;
-  margin: 5px;
+  border: 1px solid #000;
+  margin: auto;
   width: 75%;
 }
