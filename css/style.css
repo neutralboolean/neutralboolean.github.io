@@ -1,5 +1,5 @@
 .nav {
-  border-radius: 30%;
+  border-radius: 5%;
   border: 3px solid #7608a5;
   background-color: #7608a5;
   text-color: #FFF;
@@ -9,17 +9,17 @@
 .nav li {
   border: 2px solid #000;
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
 .nav li:hover {
   background-color: #8441a0;
-
 }
 
 #divider {
   border: 1px solid #000;
+  padding: 5px;
   margin: auto;
   width: 75%;
 }
