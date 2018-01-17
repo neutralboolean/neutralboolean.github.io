@@ -50,6 +50,8 @@
 }
 
 #profileIMG {
+   height:150px;
+   width: 150px;
    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/14184325_10205558341116574_81732406242061043_n.jpg?oh=2147d0644f2a539e5e4e4e6b73fda2b6&oe=5AE2A364');
    background-size: cover;
    background-position: center center;
