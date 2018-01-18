@@ -14,6 +14,7 @@ body {
 }
 
 .main p {
+  height = 80%;
   background-color: #494E6B;
   margin: auto;
   margin-top: 10px;
