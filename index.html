@@ -1,6 +1,17 @@
 <html>
   <head>
-  <link rel="stylesheet" type="text/css" href="https://rawgit.com/neutralboolean/neutralboolean.github.io/master/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/neutralboolean/neutralboolean.github.io/master/css/style.css">
+    <script language="javascript">
+      var name = ".nav";
+      var menuYLoc = null;
+      $(document).ready(function() {
+        menuYLoc = parseInt($(name).css("top").substring(0, $(name).css("top").indexOf("px")));
+        $(window).scroll(function () {
+          var offset = menuYLoc + $(document).scrollTop() + "px";
+          $(name).animate({top:offset}, {duration:500, queue:false});
+        });
+      });
+    </script>
   </head>
   <body>
   <div class="main">
